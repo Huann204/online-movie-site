@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { FaPlay } from "react-icons/fa";
-import Loading from "./loading";
+import Loading from "./Loading";
 
 function MovieCard({ data, loading }) {
   if (loading) {

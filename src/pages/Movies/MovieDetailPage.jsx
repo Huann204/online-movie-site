@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineLoading } from "react-icons/ai";
 import { FaPlay } from "react-icons/fa";
 import { getMovieDetail } from "../../services/api";
-import Loading from "../../components/shared/loading";
+import Loading from "../../components/shared/Loading";
 import { MdMovie } from "react-icons/md";
 
 function MovieDetailPage() {

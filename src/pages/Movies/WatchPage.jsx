@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { AiOutlineVideoCamera } from "react-icons/ai";
 import { getMovieDetail } from "../../services/api";
-import Loading from "../../components/shared/loading";
+import Loading from "../../components/shared/Loading";
 
 function WatchPage() {
   const { slug } = useParams();
